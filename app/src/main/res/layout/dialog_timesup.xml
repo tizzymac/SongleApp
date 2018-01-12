@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/times_up"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@color/colorPrimary"
+              android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/game_over"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:src="@drawable/game_over"
+        android:layout_gravity="center"/>
+
+    <!--
+    <TextView
+        android:id="@+id/times_up_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/times_up"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="24sp"/>
+        -->
+
+    <TextView
+        android:id="@+id/consolation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/consolation"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/better_button"
+        android:background="@drawable/button"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

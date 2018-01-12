@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/pastelYellow">
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gif"
+        android:scaleType="fitCenter"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="25dp" />
+
+    <!--
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/songle_title"
+        android:layout_margin="48dp"/>
+        -->
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_new_game"
+        android:background="@drawable/button_pink"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

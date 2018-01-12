@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog_found_lyric"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:background="@color/colorPrimary"
+              android:padding="25dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/word_found"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/found_lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textSize="36sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/check_it_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_it_out"
+        android:background="@drawable/button"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/keep_collecting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keep_collecting"
+        android:background="@drawable/button"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

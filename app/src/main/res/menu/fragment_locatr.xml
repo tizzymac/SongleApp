@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res/android"
+
+    <!--
+    <item android:id="@+id/action_locate"
+          android:icon="@android:drawable/ic_menu_compass"
+          android:title="@string/search"
+          android:enabled="false"
+          app:showAsAction="ifRoom" /> -->
+
+
+    <item
+        android:id="@+id/guess"
+        android:icon="@drawable/ic_action_guess"
+        android:title="@string/guess"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/map_view"
+        android:icon="@drawable/ic_action_map"
+        android:title="@string/map_view"
+        android:enabled="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/puzzle_view"
+        android:icon="@drawable/ic_action_puzzle"
+        android:title="@string/puzzle_view"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog_nonewsongs"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@color/colorPrimary"
+              android:padding="25dp">
+
+    <TextView
+        android:id="@+id/no_new_songs_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terrible_news"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/sad"/>
+
+    <TextView
+        android:id="@+id/no_new_songs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_new_songs_message"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/check_back_soon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_back_soon"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>

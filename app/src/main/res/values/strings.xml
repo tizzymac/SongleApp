@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Songle</string>
+
+    <!-- Start Menu -->
+    <string name="start_new_game">Start A New Game</string>
+    
+    <!-- Level Picker -->
+    <string name="level_picker_title">Chose a level:</string>
+    <string name="level1">Super Easy</string>
+    <string name="level2">Lemon Squeezy</string>
+    <string name="level3">Like Whatever</string>
+    <string name="level4">So Not Hard</string>
+    <string name="level5">Way Hard</string>
+    <string name="level_picker_ok">OK</string>
+    <string name="lets_do_this">Let\'s Do This!</string>
+
+    <!-- Set Up -->
+    <string name="get_ready">Psyche yourself up while we set up your game...</string>
+    <string name="ready_button">I\'m psyched!</string>
+
+    <!-- No Internet -->
+    <string name="no_internet_title">NO INTERNET</string>
+    <string name="no_internet_message">What even is life without internet?\nPlease reconnect and try again.</string>
+
+    <!-- No New Songs -->
+    <string name="terrible_news">TERRIBLE NEWS</string>
+    <string name="no_new_songs_message">There are no new songs...\nCry.</string>
+    <string name="check_back_soon">More songs are always being added, so check back soon!!</string>
+
+    <!-- Toolbar-->
+    <string name="guess">Guess the Song</string>
+    <string name="map_view">Return to Map</string>
+    <string name="puzzle_view">Collected Lyrics</string>
+
+    <!-- Guess / Give Up-->
+    <string name="guess_title">Title:</string>
+    <string name="guess_artist">Artist:</string>
+    <string name="guess_button">guess!</string>
+    <string name="give_up_button">give up?</string>
+
+    <!-- Guessed Correct-->
+    <string name="guess_correct">OMG, you guessed the song!\nYou go girl!</string>
+    <string name="guess_correct_button">I\'m the best</string>
+
+    <!-- Guessed Wrong-->
+    <string name="guess_wrong">You\'re wrong. Sorry bout it.</string>
+    <string name="guess_wrong_button">Keep trying</string>
+
+    <!-- Guessed Half Correct -->
+    <string name="right_track">You\'re on the right track!</string>
+    <string name="encouragement">Come on, I know you know this!\nDig deep!</string>
+    
+    <!-- Give Up -->
+    <string name="really_tho">C\'mon are you seriously gonna give up?</string>
+    <string name="keep_trying">Keep trying</string>
+    <string name="quit">I quit. Bye.</string>
+
+    <!-- Found Lyric -->
+    <string name="word_found">You found a word!</string>
+    <string name="check_it_out">Check it out</string>
+    <string name="keep_collecting">Keep collecting</string>
+
+    <!-- Time's Up -->
+    <string name="times_up">Time\'s up\, pal</string>
+    <string name="consolation">Look, I know you\'re disappointed, but you\'re probably just having a bad day or something. You can totally do better! So, come on, get back on that horse and show the world what you\'re made of!</string>
+    <string name="better_button">I can do better</string>
+
+</resources>

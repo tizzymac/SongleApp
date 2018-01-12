@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog_give_up"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@color/colorPrimary"
+              android:padding="25dp">
+
+    <TextView
+        android:id="@+id/really_tho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/really_tho"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/keep_trying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keep_trying"
+        android:background="@drawable/button"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quit"
+        android:background="@drawable/button"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
